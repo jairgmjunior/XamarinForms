@@ -50,14 +50,14 @@ namespace ConsultaCep
 
         private bool IsValidCep(string cep)
         {
-            //if(cep.Length != 8)
-            //{
-            //    return false;
-            //}
-            //else if (!cep.All(char.IsDigit))
-            //{
-            //    return false;
-            //}
+            if (cep.Length != 8)
+            {
+                return false;
+            }
+            else if (!cep.All(char.IsDigit))
+            {
+                return false;
+            }
 
             return true;
         }
