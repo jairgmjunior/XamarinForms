@@ -134,4 +134,13 @@
       <Name>TipoPagina</Name>
     </ProjectReference>
   </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\xamarin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\pages.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <BundleResource Include="Resources\button.png" />
+  </ItemGroup>
 </Project>

@@ -10,7 +10,7 @@ namespace TipoPagina
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new Paginas.Carrocel.Introducao();
         }
 
         protected override void OnStart()
