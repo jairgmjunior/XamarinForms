@@ -4,14 +4,16 @@
              xmlns:d="http://xamarin.com/schemas/2014/forms/design"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
              mc:Ignorable="d"
-             x:Class="TipoPagina.Paginas.Carrocel.TipoPagina3"
-             BackgroundColor="LightSkyBlue">
+             x:Class="TipoPagina.Paginas.Navigation.Pagina3">
     <ContentPage.Content>
-        <StackLayout VerticalOptions="CenterAndExpand" >
-            <Label Text="Tipo de Página"
-                   TextColor="blue"
+        <StackLayout BackgroundColor="LightSkyBlue">
+            <StackLayout HeightRequest="50" BackgroundColor="LightBlue">
+                <Label Text="Titulo"/>
+                <Button Text="!" Clicked="FecharModal"></Button>
+            </StackLayout>
+            <Label Text="Eu sou um modal!"
+                VerticalOptions="CenterAndExpand" 
                 HorizontalOptions="CenterAndExpand" />
-            <Button ImageSource="button.png" BackgroundColor="Transparent" Clicked="MudarPagina"/>
         </StackLayout>
     </ContentPage.Content>
 </ContentPage>

@@ -16,5 +16,11 @@ namespace TipoPagina.Paginas.Carrocel
         {
             InitializeComponent();
         }
+
+        private void MudarPagina(object sender, EventArgs e)
+        {
+            //App.Current.MainPage = new NavigationPage(new Navigation.Pagina1()) { BarBackgroundColor = Color.BlueViolet };
+            App.Current.MainPage = new Tabbed.Abas();
+        }
     }
 }
